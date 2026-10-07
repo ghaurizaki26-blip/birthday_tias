@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
+
+<div class="stars"></div>
+
+<div class="glow glow-one"></div>
+<div class="glow glow-two"></div>
+
+
+<!-- PARTICLES -->
+
+<div id="particles"></div>
+
+
+
+<!-- =====================================================
+     OPENING
+===================================================== -->
+
+<section id="opening" class="opening">
+
+    <div class="opening-content">
+
+        <div class="opening-line"></div>
+
+        <p class="opening-small">
+            I have something for you...
+        </p>
+
+        <h1>
+            A Little
+            <span>Surprise</span>
+        </h1>
+
+        <p class="opening-description">
+
+            Some things are better felt<br>
+            than explained.
+
+        </p>
+
+
+        <!-- COUNTDOWN -->
+
+        <div id="countdown" class="countdown">
+            3
+        </div>
+
+
+        <button
+            id="openButton"
+            class="open-button"
+            onclick="startSurprise()">
+
+            OPEN
+            <span>♡</span>
+
+        </button>
+
+
+        <p class="sound-hint">
+            ♫ turn the sound on
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MAIN WEBSITE
+===================================================== -->
+
+<main id="main" class="hidden">
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="hero-small">
+            TODAY IS YOUR SPECIAL DAY
+        </p>
+
+
+        <h1 class="hero-title">
+
+            Happy
+
+            <span>
+                Birthday
+            </span>
+
+        </h1>
+
+
+        <div class="hero-line"></div>
+
+
+        <h2>
+            Someone Special
+            <span>♡</span>
+        </h2>
+
+
+        <p class="hero-description">
+
+            Semoga hari ini menjadi salah satu
+            hari yang paling indah dan selalu
+            memberikan alasan untuk tersenyum.
+
+        </p>
+
+
+        <div class="hero-cake">
+            🎂
+        </div>
+
+
+        <div class="scroll-hint">
+
+            <span>
+                SCROLL TO EXPLORE
+            </span>
+
+            <b>↓</b>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     MEMORIES
+===================================================== -->
+
+<section class="section memories">
+
+
+    <div class="section-title">
+
+        <span>
+            01
+        </span>
+
+        <div>
+
+            <p>
+                OUR MEMORIES
+            </p>
+
+            <h2>
+                Little Memories
+            </h2>
+
+        </div>
+
+    </div>
+
+
+    <p class="section-description">
+
+        Beberapa momen mungkin sederhana,
+        tapi selalu punya tempat tersendiri
+        untuk dikenang.
+
+    </p>
+
+
+
+    <div class="photo-gallery">
+
+
+        <!-- FOTO 1 -->
+
+        <div class="photo-card large">
+
+            <div class="photo-number">
+                01
+            </div>
+
+            <img
+                src="foto1.jpeg"
+                alt="Foto kenangan">
+
+
+            <div class="photo-overlay">
+
+                <span>
+                    01
+                </span>
+
+                <p>
+                    Special Person In My Life ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOTO 2 -->
+
+        <div class="photo-card">
+
+            <div class="photo-number">
+                02
+            </div>
+
+            <img
+                src="foto2.jpeg"
+                alt="Foto kenangan">
+
+
+            <div class="photo-overlay">
+
+                <span>
+                    02
+                </span>
+
+                <p>
+                    Special Moment
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOTO 3 -->
+
+        <div class="photo-card">
+
+            <div class="photo-number">
+                03
+            </div>
+
+            <img
+                src="foto3.jpeg"
+                alt="Foto kenangan">
+
+
+            <div class="photo-overlay">
+
+                <span>
+                    03
+                </span>
+
+                <p>
+                    I Love You So Much ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     LETTER
+===================================================== -->
+
+<section class="section letter-section">
+
+
+    <div class="section-title">
+
+        <span>
+            02
+        </span>
+
+        <div>
+
+            <p>
+                FROM MY HEART
+            </p>
+
+            <h2>
+                A Little Letter
+            </h2>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ENVELOPE -->
+
+    <div class="envelope-area">
+
+
+        <div
+            id="envelope"
+            class="envelope"
+            onclick="openLetter()">
+
+
+            <div class="envelope-back"></div>
+
+            <div class="paper">
+
+                <span>
+                    ♡
+                </span>
+
+            </div>
+
+            <div class="flap"></div>
+
+            <div class="envelope-front"></div>
+
+
+        </div>
+
+
+        <p id="envelopeText">
+
+            CLICK TO OPEN
+
+        </p>
+
+    </div>
+
+
+
+    <!-- LETTER -->
+
+    <div
+        id="letter"
+        class="letter hidden">
+
+
+        <div class="letter-header">
+
+            <span>
+                TO SOMEONE SPECIAL
+            </span>
+
+            <span>
+                ♡
+            </span>
+
+        </div>
+
+
+
+        <p>
+
+            <strong>
+                Happy Birthday Tias Ika Lestari! 🎂
+            </strong>
+
+        </p>
+
+
+
+        <p>
+
+            Di hari spesial ini, semoga semua hal baik datang menghampiri kamu.
+            Semoga apa yang kamu inginkan perlahan bisa menjadi kenyataan,
+            dan setiap langkah yang kamu ambil selalu membawa kamu ke tempat
+            yang kamu impikan.
+
+        </p>
+
+
+
+        <p>
+
+            Terima kasih sudah menjadi seseorang yang begitu berarti.
+            Mungkin nggak semua hal bisa diungkapkan lewat kata-kata,
+            tapi aku harap kamu tahu kalau kehadiran kamu punya arti
+            yang lebih besar dari yang kamu kira.
+
+        </p>
+
+
+
+        <p>
+
+            Semoga di usia yang baru ini, kamu menemukan lebih banyak alasan
+            untuk tersenyum, lebih banyak momen yang bisa dikenang,
+            dan lebih banyak hal kecil yang membuat kamu merasa bahagia.
+
+        </p>
+
+
+
+        <p>
+
+            Kalau suatu hari semuanya terasa berat, semoga kamu selalu ingat
+            kalau kamu sudah melewati banyak hal sampai sejauh ini.
+            Jadi jangan terlalu keras sama diri sendiri.
+
+            <em>
+                Take your time, keep going, and always be proud
+                of how far you've come.
+            </em>
+
+        </p>
+
+
+
+        <p>
+
+            And if I could wish for something on your birthday,
+            I wouldn't wish for you to have a perfect life.
+
+        </p>
+
+
+
+        <p>
+
+            I'd wish for you to have a life filled with moments
+            that make you genuinely happy, people who truly care
+            about you, and someone who stays beside you through
+            both the good and difficult days.
+
+        </p>
+
+
+
+        <p>
+
+            I hope you have a beautiful year ahead. ❤️
+
+        </p>
+
+
+
+        <p>
+
+            And maybe, among all the wishes you make today,
+            there's one little wish that somehow brings you closer
+            to everything your heart has been waiting for.
+
+        </p>
+
+
+
+        <p>
+
+            Once again, happy birthday.
+            Keep smiling, keep being yourself,
+            and never forget how special you are.
+
+        </p>
+
+
+
+        <p class="signature">
+
+            — Someone who cares about you
+
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WISH
+===================================================== -->
+
+<section class="wish-section">
+
+
+    <div class="wish-content">
+
+
+        <p class="wish-label">
+            03 — ONE LAST THING
+        </p>
+
+
+        <h2>
+
+            Make A
+            <span>
+                Wish
+            </span>
+
+        </h2>
+
+
+        <p class="wish-description">
+
+            Pejamkan mata sebentar.<br>
+            Pikirkan satu hal yang paling kamu inginkan.
+
+        </p>
+
+
+
+        <!-- CAKE -->
+
+        <div
+            id="wishCake"
+            class="wish-cake"
+            onclick="makeWish()">
+
+
+            <div class="flame flame-one"></div>
+
+            <div class="flame flame-two"></div>
+
+            <div class="flame flame-three"></div>
+
+
+            <div class="candle candle-one"></div>
+
+            <div class="candle candle-two"></div>
+
+            <div class="candle candle-three"></div>
+
+
+            <div class="cake-top"></div>
+
+            <div class="cake-body"></div>
+
+        </div>
+
+
+
+        <button
+            class="wish-button"
+            onclick="makeWish()">
+
+            MAKE A WISH
+            <span>✦</span>
+
+        </button>
+
+
+
+        <p
+            id="wishMessage"
+            class="wish-message">
+
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FINAL SURPRISE
+===================================================== -->
+
+<section
+    id="finalSurprise"
+    class="final-surprise hidden">
+
+
+    <div class="final-content">
+
+
+        <p class="final-small">
+            WAIT...
+        </p>
+
+
+        <h2>
+
+            One More
+            <span>
+                Thing
+            </span>
+
+        </h2>
+
+
+        <p class="final-description">
+
+            I saved something special<br>
+            for the very end.
+
+        </p>
+
+
+        <button
+            id="revealButton"
+            class="reveal-button"
+            onclick="revealVideo()">
+
+            REVEAL MY SURPRISE
+            <span>✦</span>
+
+        </button>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     VIDEO
+===================================================== -->
+
+<section
+    id="videoSection"
+    class="video-section hidden">
+
+
+    <div class="video-container">
+
+
+        <p class="video-small">
+            THIS ONE IS FOR YOU
+        </p>
+
+
+        <h2>
+            A Little Something
+        </h2>
+
+
+        <div class="video-wrapper">
+
+
+            <video
+                id="birthdayVideo"
+                controls
+                playsinline>
+
+                <source
+                    src="video.mp4"
+                    type="video/mp4">
+
+                Browser kamu tidak mendukung video.
+
+            </video>
+
+
+        </div>
+
+
+        <p class="video-note">
+
+            Watch until the end ❤️
+
+        </p>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ENDING
+===================================================== -->
+
+<section class="ending">
+
+
+    <div class="ending-content">
+
+
+        <p class="ending-small">
+            ONCE AGAIN...
+        </p>
+
+
+        <h2>
+            Happy Birthday
+        </h2>
+
+
+        <div class="ending-line"></div>
+
+
+        <p class="ending-text">
+
+            Keep smiling.<br>
+            Keep dreaming.<br>
+            And keep being you.
+
+        </p>
+
+
+        <p class="end-name">
+
+            With love,
+
+            <br>
+
+            <strong>
+                Ghauri Zaki Alfatih
+            </strong>
+
+        </p>
+
+
+        <div class="ending-heart">
+            ♡
+        </div>
+
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     MUSIC
+===================================================== -->
+
+<audio
+    id="music"
+    loop>
+
+    <source
+        src="music.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+
+
+<!-- SCRIPT -->
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
